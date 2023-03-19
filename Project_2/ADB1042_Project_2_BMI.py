@@ -7,7 +7,7 @@ def BMI_AVG(Index):     #Function that takes the BMI and tells you where you are
         x = "You Are Under Weight."
         print(x)
         return(x)
-    if(Index >= 18.5 and Index <=24.9):
+    if(Index >= 18.6 and Index <=24.9):
         x= "You Are A Normal Weight."
         print(x)
         return(x)
@@ -21,7 +21,7 @@ def BMI_AVG(Index):     #Function that takes the BMI and tells you where you are
         return(x)
 
 
-def Calculate():
+def main():
     
     try:    
         print("Please enter your weight pounds.\n")
@@ -38,11 +38,11 @@ def Calculate():
         return(BMI)
     except ValueError:
         print("No...")
-        Calculate()
+        main()
         
 
 print("Welcome to the Body Mass Index Calculator!")
-#Calculate()
+
 
 
 
@@ -59,5 +59,7 @@ def DEBUG_PrintVars():  #debug only, used strictly to print variables to test if
     print("BMI")
     print(BMI)
 
+if(__name__ == "__main__"):
+    main()
 
 
