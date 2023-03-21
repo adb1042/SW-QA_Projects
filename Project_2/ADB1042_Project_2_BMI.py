@@ -7,7 +7,7 @@ def BMI_AVG(Index):     #Function that takes the BMI and tells you where you are
         x = "You Are Under Weight."
         print(x)
         return(x)
-    if(Index >= 18.6 and Index <=24.9):
+    if(Index >= 18.5 and Index <=24.9):
         x= "You Are A Normal Weight."
         print(x)
         return(x)
