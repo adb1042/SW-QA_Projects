@@ -26,16 +26,19 @@ To install Python onto your Windows machine:
 7. (optional) Once pytest has been added to path, close and re-open your command prompt to refresh the environment variables.
 
 
-## Install Main.py and Test.py
+## Install and Execute Main.py and Test.py
 
 1. Download the repository from github: https://github.com/adb1042/SW-QA_Projects.git
 2. Decompress the ZIP file.
 3. Navigate through command prompt to the **Project_2** folder.  
 4. run *python ADB1042_Project_2_BMI*
 5. Complete the steps to calculate your BMI. 
-6. run *pytest* to view the current boundary shift issue.
-7. to view the code in both Main.py and Test.py, press **Windows + R**
-8. inside the dialog box that appears, type *idle*
-9. when idle opens, press **CTRL + O**
-10. navigate to the **Project_2** folder, and select the file you wish to view.
+6. run *pytest* to test the 16 tests for both functions inside of main.py. (at its current state, all should pass)
+
+
+## View Code inside of Main.py and Test.py
+1. to view the code in both Main.py and Test.py, press **Windows + R** 
+2. inside the dialog box that appears, type *idle* and press **Enter**
+3. when idle opens, press **CTRL + O** 
+4. navigate to the **Project_2** folder, and select the file you wish to view.
 
