@@ -1,4 +1,4 @@
-# The Installation and Execution Guide For Project 3
+# The Installation, Execution, and Testing Guide For Project 3
 
 
 This document shall cover the start to finish process of installing **django**, **python**, and other requirements used to enable this project to run correctly.
@@ -51,3 +51,14 @@ Type the command **python manage.py runserver** to boot up the server hosting th
 Once at localhost:8000, you will be prompted to enter your height in feet and inches, as well as weight.
 
 When you click the "submit" button, it shall calculate your BMI. 
+
+
+
+# Testing:
+
+To test that all system checks have been met within the program, a set of 20 tests have been written to validate that the code has been written properly
+
+To test the code, navigate to the adb1042_project_3 directory and type the command **python manage.py test bmi** 
+
+The output should show that 20 tests were found and 20 tests were run with no errors. If there are errors, please open an issue and put the output there. 
+
